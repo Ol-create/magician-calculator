@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Buttons from './buttons';
-import OutputScreen from './outputScreen';
+import Buttons from './Buttons';
+import OutputScreen from './OutputScreen';
 import calculate from '../logic/calculate';
 
 class Calculator extends React.Component {
