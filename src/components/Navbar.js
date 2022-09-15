@@ -22,15 +22,15 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className='navbar'>
+    <nav className="navbar">
       <h1>Math Magicians</h1>
-      <ul className='links'>
+      <ul className="links">
         {links.map((link) => (
           <li key={link.id}>
             <NavLink
               to={link.path}
-              activeClassName='avtiveLink'
-              className='link'
+              activeClassName="avtiveLink"
+              className="link"
               exact
             >
               {link.text}
