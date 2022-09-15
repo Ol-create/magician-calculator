@@ -1,8 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Calculator from './components/Calculator';
+import { createRoot } from 'react-dom/client';
+import App from './App'
+
 import './App.css';
 import './index.css';
 
 // Render the Calculator to the Web page.
-ReactDOM.render(<Calculator pre="" operand="" curr="0" />, document.getElementById('root'));
+
+const container = document.getElementById('root');
+const root = createRoot(container); 
+root.render(<App />);
